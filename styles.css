@@ -1,0 +1,207 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #87ceeb 0%, #1e90ff 100%);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #1e90ff, #63b8ff);
+    box-shadow: 0 4px 6px rgba(30, 144, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: white;
+    background: linear-gradient(45deg, #104e8b, #1e90ff);
+    box-shadow: 0 6px 10px rgba(16, 78, 139, 0.7);
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #104e8b;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #104e8b;
+}
+
+#game-container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 8px 15px rgba(16, 78, 139, 0.2);
+}
+
+.color-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1e90ff;
+}
+
+.color-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.color-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.color-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #1e90ff;
+}
+
+.result {
+    font-size: 1.5rem;
+    height: 40px;
+    margin-bottom: 20px;
+    color: #104e8b;
+}
+
+.next-btn {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+    background-color: #104e8b;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #ff6f61, #ff9472);
+    box-shadow: 0 4px 6px rgba(255, 111, 97, 0.5);
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: white;
+    background: linear-gradient(45deg, #e65b50, #ff6f61);
+    box-shadow: 0 6px 10px rgba(230, 91, 80, 0.7);
+    transform: scale(1.1);
+}
+
+.navbar a:hover {
+    color: #e65b50;
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#game-container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.color-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.color-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.color-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.color-button:hover {
+    transform: scale(1.1);
+}
+
+.result {
+    font-size: 1.5rem;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.next-btn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+    background-color: #e65b50;
+}
